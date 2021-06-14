@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewtech.Dojo.SQL", "Brewtech.Dojo.SQL\Brewtech.Dojo.SQL.csproj", "{7C57F668-9AFC-45C4-9A51-CDAC2E01B6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewtech.Dojo.SQL.Dados", "Brewtech.Dojo.SQL.Dados\Brewtech.Dojo.SQL.Dados.csproj", "{D98AD61E-623A-4232-AB44-744E5BD2CE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - README", "01 - README", "{E77D99DA-95A1-4187-AE35-A3D2B3635E68}"
+	ProjectSection(SolutionItems) = preProject
+		CriaDojoSQL.sql = CriaDojoSQL.sql
+		docker-compose.yml = docker-compose.yml
+		DojoDatabase.jpeg = DojoDatabase.jpeg
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brewtech.Dojo.SQL.Dados.CarregarBase", "Brewtech.Dojo.SQL.Dados.CarregarBase\Brewtech.Dojo.SQL.Dados.CarregarBase.csproj", "{6AD6882E-0525-4DE3-8288-F8FBA9652CCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C57F668-9AFC-45C4-9A51-CDAC2E01B6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C57F668-9AFC-45C4-9A51-CDAC2E01B6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C57F668-9AFC-45C4-9A51-CDAC2E01B6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C57F668-9AFC-45C4-9A51-CDAC2E01B6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98AD61E-623A-4232-AB44-744E5BD2CE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98AD61E-623A-4232-AB44-744E5BD2CE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98AD61E-623A-4232-AB44-744E5BD2CE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98AD61E-623A-4232-AB44-744E5BD2CE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD6882E-0525-4DE3-8288-F8FBA9652CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD6882E-0525-4DE3-8288-F8FBA9652CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD6882E-0525-4DE3-8288-F8FBA9652CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD6882E-0525-4DE3-8288-F8FBA9652CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {107ECF2B-465F-44B4-B6D2-3A4EFD9753B1}
+	EndGlobalSection
+EndGlobal

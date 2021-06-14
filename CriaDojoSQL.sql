@@ -1,4 +1,14 @@
-﻿drop table IF EXISTS Pessoa_Juridica;
+﻿/*
+drop database IF EXISTS "Dojo";
+CREATE DATABASE "Dojo"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+	
+*/
+
+drop table IF EXISTS Pessoa_Juridica;
 drop table IF EXISTS Pessoa_Fisica;
 drop table IF EXISTS Pedido_Produto;
 drop table IF EXISTS Pedido;
